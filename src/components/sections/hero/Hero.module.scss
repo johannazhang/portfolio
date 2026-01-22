@@ -1,0 +1,55 @@
+@use "../../../styles/breakpoints.scss" as *;
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  width: 60%;
+  min-height: 90vh;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 100%;
+    max-width: 700px;
+  }
+
+  h1 {
+    font-size: var(--font-size-32);
+    margin-top: var(--spacing-40);
+    margin-bottom: var(--spacing-10);
+    font-weight: var(--font-weight-bold);
+  }
+
+  p {
+    font-size: var(--font-size-20);
+    margin: 0;
+  }
+
+  a {
+    font-size: var(--font-size-24);
+    font-family: var(--font-space);
+    font-weight: 400;
+  }
+
+  @media (max-width: $laptop) {
+    width: 90%;
+  }
+
+  @media (max-width: $mobile) {
+    width: 100%;
+
+    h1 {
+      font-size: var(--font-size-24);
+    }
+
+    p {
+      font-size: var(--font-size-18);
+    }
+
+    a {
+      font-size: var(--font-size-20);
+    }
+  }
+}

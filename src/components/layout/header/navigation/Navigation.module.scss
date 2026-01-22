@@ -1,0 +1,49 @@
+@use "../../../../styles/breakpoints.scss" as *;
+
+nav {
+  ul {
+    list-style: none;
+    display: flex;
+    gap: var(--spacing-36);
+  }
+
+  a.active {
+    color: var(--powder-blue-muted);
+  }
+
+  button {
+    display: none;
+  }
+
+  @media (max-width: $mobile) {
+    button {
+      all: unset;
+      cursor: pointer;
+
+      img {
+        width: 22px;
+      }
+    }
+
+    ul.open {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      text-align: center;
+      background: var(--white);
+      position: absolute;
+      width: 100%;
+      top: 72px;
+      left: 0;
+      padding: 0;
+
+      li {
+        padding: var(--spacing-12);
+      }
+    }
+
+    ul {
+      display: none;
+    }
+  }
+}

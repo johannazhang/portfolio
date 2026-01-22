@@ -1,0 +1,12 @@
+.filter {
+  display: flex;
+  gap: var(--spacing-40);
+
+  a {
+    font-weight: 400;
+  }
+
+  .active {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,50 @@
+@use "../../../styles/breakpoints.scss" as *;
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: var(--font-size-48);
+    font-family: var(--font-poppins);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .projectCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-24);
+    width: 70%;
+    margin: 48px auto;
+  }
+
+  @media (max-width: $desktop) {
+    .projectCards {
+      width: 75%;
+    }
+  }
+
+  @media (max-width: $laptop) {
+    .projectCards {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: $tablet) {
+    .projectCards {
+      width: 80%;
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: $mobile) {
+    h1 {
+      font-size: var(--font-size-36);
+    }
+
+    .projectCards {
+      width: 100%;
+    }
+  }
+}

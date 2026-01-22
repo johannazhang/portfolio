@@ -1,0 +1,58 @@
+@use "../../../styles/breakpoints.scss" as *;
+
+.about {
+  display: flex;
+  gap: 80px;
+  width: 70%;
+  min-height: 90vh;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: var(--font-size-48);
+    margin-top: 0;
+  }
+
+  img {
+    width: 280px;
+    outline: 2px solid var(--black);
+  }
+
+  p {
+    font-size: var(--font-size-18);
+    font-family: var(--font-poppins);
+    width: 450px;
+  }
+
+  @media (max-width: $laptop) {
+    flex-direction: column;
+    gap: var(--spacing-40);
+    min-height: unset;
+    margin-top: var(--spacing-64);
+  }
+
+  @media (max-width: $tablet) {
+    width: 80%;
+
+    p {
+      width: unset;
+    }
+  }
+
+  @media (max-width: $mobile) {
+    width: 90%;
+
+    img {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: var(--font-size-32);
+    }
+
+    p {
+      font-size: var(--font-size-16);
+    }
+  }
+}

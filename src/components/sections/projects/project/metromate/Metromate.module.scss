@@ -1,0 +1,22 @@
+.metromate {
+  img {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 100%;
+  }
+
+  .process {
+    width: 70%;
+    padding: var(--spacing-32);
+  }
+
+  .hifi {
+    width: 75%;
+    padding: var(--spacing-32);
+  }
+
+  h4 {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,58 @@
+@use "../../../../styles/breakpoints.scss" as *;
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55%;
+  margin: auto;
+  gap: var(--spacing-24);
+
+  img {
+    height: 500px;
+    width: auto;
+  }
+
+  h1 {
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-36);
+    line-height: 1.2;
+    margin: 0;
+  }
+
+  span {
+    font-size: var(--font-size-16);
+  }
+
+  a {
+    font-family: var(--font-space);
+    font-size: var(--font-size-16);
+    text-decoration: underline;
+    font-weight: 400;
+    align-self: flex-start;
+  }
+
+  @media (max-width: $desktop) {
+    width: 60%;
+  }
+
+  @media (max-width: $laptop) {
+    width: 70%;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: $tablet) {
+    width: 100%;
+  }
+
+  @media (max-width: $mobile) {
+    width: 100%;
+    h1 {
+      font-size: var(--font-size-32);
+    }
+  }
+}
