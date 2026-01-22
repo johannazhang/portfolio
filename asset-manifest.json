@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3642a4c3.css",
+    "main.js": "/portfolio/static/js/main.ba28d81a.js",
+    "static/media/metromate_final.png": "/portfolio/static/media/metromate_final.e5cc951f25738a12e29d.png",
+    "static/media/giftify_experience.png": "/portfolio/static/media/giftify_experience.296c8a50d0f7a31439fe.png",
+    "static/media/giftify_final.png": "/portfolio/static/media/giftify_final.1995f667fb5304e11bae.png",
+    "static/media/giftify.png": "/portfolio/static/media/giftify.27d374d1dd74ca88ea0d.png",
+    "static/media/paramedics_branding.png": "/portfolio/static/media/paramedics_branding.8766d20e4f031b4a21e4.png",
+    "static/media/giftify_hifi.png": "/portfolio/static/media/giftify_hifi.b5ca53018b1b35a1cb8a.png",
+    "static/media/metromate.png": "/portfolio/static/media/metromate.82558f7d97371192ca9c.png",
+    "static/media/metromate_sketches.png": "/portfolio/static/media/metromate_sketches.a0569df20b3cdc4fa423.png",
+    "static/media/metromate_station.png": "/portfolio/static/media/metromate_station.b94d3e251af113149668.png",
+    "static/media/metromate_route.png": "/portfolio/static/media/metromate_route.e27cf3de506e39519749.png",
+    "static/media/paramedics.png": "/portfolio/static/media/paramedics.04887b389294c2b93daf.png",
+    "static/media/metromate_home.png": "/portfolio/static/media/metromate_home.8effb70218bb29205437.png",
+    "static/media/metromate_transit.png": "/portfolio/static/media/metromate_transit.9a142b5bd4059072d342.png",
+    "static/media/website.png": "/portfolio/static/media/website.e0661aaa55430a34b2d5.png",
+    "static/media/utern.png": "/portfolio/static/media/utern.fd12f2c37f099f49212f.png",
+    "static/media/me.png": "/portfolio/static/media/me.6ce0498304bdb86f7218.png",
+    "static/media/alice_maze.png": "/portfolio/static/media/alice_maze.5a6bc3476dbf99d6f37f.png",
+    "static/media/desktop.png": "/portfolio/static/media/desktop.270a539d1f362fc74d8c.png",
+    "static/media/centipede.png": "/portfolio/static/media/centipede.89deaaac02408367954a.png",
+    "static/media/giftify_job_story.png": "/portfolio/static/media/giftify_job_story.0c1afaefa5226bccf048.png",
+    "static/media/hero.png": "/portfolio/static/media/hero.1b557c7a515bcff29e88.png",
+    "static/media/advent.png": "/portfolio/static/media/advent.bb56addb388fe7816aa1.png",
+    "static/media/menu.png": "/portfolio/static/media/menu.cc4028cfab9f7ca918c1.png",
+    "static/media/metromate_process.png": "/portfolio/static/media/metromate_process.5d304f77f92c1e51f521.png",
+    "static/media/centipede_game.png": "/portfolio/static/media/centipede_game.3cd4ee263e91941eb596.png",
+    "static/media/ai_algorithms.png": "/portfolio/static/media/ai_algorithms.9aad477239545cf99c2f.png",
+    "static/media/github.png": "/portfolio/static/media/github.f11021803f68852df283.png",
+    "index.html": "/portfolio/index.html",
+    "main.3642a4c3.css.map": "/portfolio/static/css/main.3642a4c3.css.map",
+    "main.ba28d81a.js.map": "/portfolio/static/js/main.ba28d81a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3642a4c3.css",
+    "static/js/main.ba28d81a.js"
+  ]
+}
