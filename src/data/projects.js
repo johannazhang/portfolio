@@ -33,7 +33,7 @@ export const PROJECTS = [
       new URL("../assets/images/desktop.png", import.meta.url).href,
     ],
     slug: "johannazhang",
-    link: "https://github.com/johannazhang/Text-Adventure",
+    link: "https://github.com/johannazhang/portfolio",
   },
   {
     title: "Text Adventure",

@@ -9,6 +9,10 @@
     font-size: var(--font-size-48);
     font-family: var(--font-poppins);
     font-weight: var(--font-weight-bold);
+
+    span {
+      font-weight: var(--font-weight-bold);
+    }
   }
 
   .projectCards {
