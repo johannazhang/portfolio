@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3642a4c3.css",
-    "main.js": "/static/js/main.0c7309ad.js",
+    "main.css": "/static/css/main.71d6bc11.css",
+    "main.js": "/static/js/main.952b5eb9.js",
     "static/media/metromate_final.png": "/static/media/metromate_final.e5cc951f25738a12e29d.png",
     "static/media/giftify_experience.png": "/static/media/giftify_experience.296c8a50d0f7a31439fe.png",
     "static/media/giftify_final.png": "/static/media/giftify_final.1995f667fb5304e11bae.png",
@@ -30,11 +30,11 @@
     "static/media/ai_algorithms.png": "/static/media/ai_algorithms.9aad477239545cf99c2f.png",
     "static/media/github.png": "/static/media/github.f11021803f68852df283.png",
     "index.html": "/index.html",
-    "main.3642a4c3.css.map": "/static/css/main.3642a4c3.css.map",
-    "main.0c7309ad.js.map": "/static/js/main.0c7309ad.js.map"
+    "main.71d6bc11.css.map": "/static/css/main.71d6bc11.css.map",
+    "main.952b5eb9.js.map": "/static/js/main.952b5eb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.3642a4c3.css",
-    "static/js/main.0c7309ad.js"
+    "static/css/main.71d6bc11.css",
+    "static/js/main.952b5eb9.js"
   ]
 }
