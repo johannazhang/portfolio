@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.71d6bc11.css",
-    "main.js": "/static/js/main.952b5eb9.js",
+    "main.css": "/static/css/main.a195a254.css",
+    "main.js": "/static/js/main.b77649d2.js",
+    "static/media/me.png": "/static/media/me.ec09dd65cf2007c2ef78.png",
     "static/media/metromate_final.png": "/static/media/metromate_final.e5cc951f25738a12e29d.png",
     "static/media/giftify_experience.png": "/static/media/giftify_experience.296c8a50d0f7a31439fe.png",
     "static/media/giftify_final.png": "/static/media/giftify_final.1995f667fb5304e11bae.png",
@@ -12,29 +13,36 @@
     "static/media/metromate_sketches.png": "/static/media/metromate_sketches.a0569df20b3cdc4fa423.png",
     "static/media/metromate_station.png": "/static/media/metromate_station.b94d3e251af113149668.png",
     "static/media/metromate_route.png": "/static/media/metromate_route.e27cf3de506e39519749.png",
+    "static/media/animals.png": "/static/media/animals.09f665bfb225b93f12e2.png",
+    "static/media/crops.png": "/static/media/crops.7a15dcd66c8d5be2f9c1.png",
     "static/media/paramedics.png": "/static/media/paramedics.04887b389294c2b93daf.png",
+    "static/media/stardew.png": "/static/media/stardew.08813cf6d67a16adc41e.png",
+    "static/media/winter.png": "/static/media/winter.8d3c1e392f4d85b26129.png",
     "static/media/metromate_home.png": "/static/media/metromate_home.8effb70218bb29205437.png",
+    "static/media/dawn.png": "/static/media/dawn.95788d8f964346e83cdf.png",
     "static/media/metromate_transit.png": "/static/media/metromate_transit.9a142b5bd4059072d342.png",
     "static/media/website.png": "/static/media/website.e0661aaa55430a34b2d5.png",
+    "static/media/house.png": "/static/media/house.1c6644b968ef85f729a1.png",
+    "static/media/apartment.png": "/static/media/apartment.2193a5bb7ab6a4c9e227.png",
     "static/media/utern.png": "/static/media/utern.fd12f2c37f099f49212f.png",
-    "static/media/me.png": "/static/media/me.6ce0498304bdb86f7218.png",
+    "static/media/museum.png": "/static/media/museum.a0ce58fed371de30be00.png",
     "static/media/alice_maze.png": "/static/media/alice_maze.5a6bc3476dbf99d6f37f.png",
     "static/media/desktop.png": "/static/media/desktop.270a539d1f362fc74d8c.png",
     "static/media/centipede.png": "/static/media/centipede.89deaaac02408367954a.png",
     "static/media/giftify_job_story.png": "/static/media/giftify_job_story.0c1afaefa5226bccf048.png",
     "static/media/hero.png": "/static/media/hero.1b557c7a515bcff29e88.png",
     "static/media/advent.png": "/static/media/advent.bb56addb388fe7816aa1.png",
-    "static/media/menu.png": "/static/media/menu.cc4028cfab9f7ca918c1.png",
     "static/media/metromate_process.png": "/static/media/metromate_process.5d304f77f92c1e51f521.png",
     "static/media/centipede_game.png": "/static/media/centipede_game.3cd4ee263e91941eb596.png",
     "static/media/ai_algorithms.png": "/static/media/ai_algorithms.9aad477239545cf99c2f.png",
     "static/media/github.png": "/static/media/github.f11021803f68852df283.png",
+    "static/media/sv.otf": "/static/media/sv.489099fabfdc5fbb3113.otf",
     "index.html": "/index.html",
-    "main.71d6bc11.css.map": "/static/css/main.71d6bc11.css.map",
-    "main.952b5eb9.js.map": "/static/js/main.952b5eb9.js.map"
+    "main.a195a254.css.map": "/static/css/main.a195a254.css.map",
+    "main.b77649d2.js.map": "/static/js/main.b77649d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.71d6bc11.css",
-    "static/js/main.952b5eb9.js"
+    "static/css/main.a195a254.css",
+    "static/js/main.b77649d2.js"
   ]
 }
