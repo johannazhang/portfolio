@@ -1,17 +1,20 @@
 import { NavLink } from "react-router-dom";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useContext } from "react";
 import styles from "./Navigation.module.scss";
-import menu from "../../../../assets/icons/menu.png";
+import clsx from "classnames";
+import { DarkModeContext } from "../../../../context/DarkModeContext";
 
 const Navigation = () => {
   const navigationItems = [
     { label: "Home", link: "/" },
     { label: "Portfolio", link: "/portfolio" },
+    { label: "Fun", link: "/fun" },
     { label: "About", link: "/about" },
   ];
 
   const [isOpen, setIsOpen] = useState(false);
   const navRef = useRef(null);
+  const darkMode = useContext(DarkModeContext);
 
   useEffect(() => {
     if (!isOpen) return;
@@ -27,9 +30,25 @@ const Navigation = () => {
   return (
     <nav ref={navRef}>
       <button type="button" onClick={() => setIsOpen(!isOpen)}>
-        <img src={menu} />
+        <svg
+          width="726"
+          height="632"
+          viewBox="0 0 726 632"
+          fill={"none"}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M726 632H0V539.333H726V632ZM726 362.333H0V269.667H726V362.333ZM726 0V92.667H0V0H726Z"
+            fill={darkMode ? "white" : "black"}
+          />
+        </svg>
       </button>
-      <ul className={`${isOpen && styles.open}`}>
+      <ul
+        className={clsx({
+          [styles.open]: isOpen,
+          [styles.dark]: darkMode,
+        })}
+      >
         {navigationItems.map(({ label, link }) => (
           <li key={link}>
             <NavLink

@@ -11,10 +11,32 @@ import Header from "./components/layout/header/Header";
 import Footer from "./components/layout/footer/Footer";
 import Project from "./components/sections/projects/project/Project";
 import { useEffect } from "react";
+import AfterHours from "./pages/AfterHours";
+import Post from "./components/sections/fun/Post";
+import { DarkModeContext } from "./context/DarkModeContext";
 
 function App() {
   return (
     <Router>
+      <AppContent />
+    </Router>
+  );
+}
+
+function AppContent() {
+  const location = useLocation();
+  const darkMode = location.pathname.startsWith("/fun");
+
+  useEffect(() => {
+    if (darkMode) {
+      document.body.classList.add("dark-mode");
+    } else {
+      document.body.classList.remove("dark-mode");
+    }
+  }, [darkMode]);
+
+  return (
+    <DarkModeContext.Provider value={darkMode}>
       <ScrollToTop />
       <div className="App">
         <Header />
@@ -27,11 +49,14 @@ function App() {
               <Route path=":slug" element={<Project />} />
             </Route>
             <Route path="/about" element={<About />} />
+            <Route path="/fun" element={<AfterHours />}>
+              <Route path=":slug" element={<Post />} />
+            </Route>
           </Routes>
         </main>
         <Footer />
       </div>
-    </Router>
+    </DarkModeContext.Provider>
   );
 }
 

@@ -1,0 +1,101 @@
+@use "../../../../styles/breakpoints.scss" as *;
+
+.farm {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-40);
+  align-items: center;
+  min-height: 90vh;
+
+  h1 {
+    font-family: stardew;
+    font-size: 60px;
+
+    img {
+      height: 1.2em;
+      display: inline;
+      vertical-align: middle;
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-12);
+    width: 65%;
+    max-width: 1000px;
+
+    .wrapper img {
+      border-radius: var(--spacing-6);
+      max-height: 500px;
+      max-width: 100%;
+    }
+
+    span {
+      font-size: var(--font-size-24);
+      font-family: stardew;
+
+      &::before {
+        content: "[";
+      }
+
+      &::after {
+        content: "]";
+      }
+    }
+
+    &:nth-child(odd) {
+      align-items: end;
+    }
+
+    &:nth-child(even) {
+      align-items: start;
+    }
+  }
+
+  .exit {
+    margin-block: var(--spacing-64);
+    width: 100px;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px var(--spacing-12) rgba(255, 255, 255, 0.4);
+    }
+  }
+
+  .background {
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+  }
+
+  @media (max-width: $tablet) {
+    h1 {
+      font-size: var(--font-size-40);
+    }
+
+    .container {
+      width: 80%;
+    }
+
+    .exit {
+      width: unset;
+      margin-block: var(--spacing-20);
+    }
+  }
+
+  @media (max-width: $mobile) {
+    h1 {
+      font-size: var(--font-size-32);
+    }
+
+    .container {
+      width: 100%;
+
+      span {
+        font-size: var(--font-size-18);
+      }
+    }
+  }
+}

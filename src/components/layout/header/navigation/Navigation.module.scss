@@ -1,6 +1,8 @@
 @use "../../../../styles/breakpoints.scss" as *;
 
 nav {
+  z-index: 1;
+
   ul {
     list-style: none;
     display: flex;
@@ -15,13 +17,14 @@ nav {
     display: none;
   }
 
-  @media (max-width: $mobile) {
+  @media (max-width: $tablet) {
     button {
       all: unset;
       cursor: pointer;
 
-      img {
+      svg {
         width: 22px;
+        height: auto;
       }
     }
 
@@ -36,6 +39,10 @@ nav {
       top: 72px;
       left: 0;
       padding: 0;
+
+      &.dark {
+        background: #0f0f0f;
+      }
 
       li {
         padding: var(--spacing-12);

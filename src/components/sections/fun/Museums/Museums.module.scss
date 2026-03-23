@@ -1,0 +1,93 @@
+@use "../../../../styles/breakpoints.scss" as *;
+
+.museum {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline: var(--spacing-36);
+
+  h1 {
+    font-size: var(--font-size-48);
+    position: sticky;
+    text-align: left;
+  }
+
+  .museums {
+    display: flex;
+    gap: var(--spacing-64);
+    overflow-x: scroll;
+    align-items: center;
+
+    &::-webkit-scrollbar {
+      height: var(--spacing-6);
+      width: var(--spacing-6);
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #111;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #444;
+      border-radius: 3px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background: #666;
+    }
+
+    img {
+      height: 420px;
+    }
+
+    div {
+      display: flex;
+      gap: 150px;
+      align-items: flex-end;
+
+      p {
+        position: relative;
+        width: 200px;
+      }
+
+      p:not(:last-child)::after {
+        content: " ── " attr(data-arrow) " ──▶";
+        position: absolute;
+        right: -120px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 12px;
+        opacity: 0.8;
+      }
+    }
+
+    a {
+      padding: var(--spacing-12);
+
+      img {
+        width: 30px;
+        height: 44px;
+
+        &:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 4px var(--spacing-12) rgba(255, 255, 255, 0.4);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $tablet) {
+  .museum {
+    margin: 0;
+  }
+}
+
+@media (max-width: $mobile) {
+  .museum {
+    h1 {
+      font-size: var(--font-size-40);
+    }
+  }
+}

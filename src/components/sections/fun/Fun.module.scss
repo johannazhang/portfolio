@@ -1,0 +1,57 @@
+@use "../../../styles/breakpoints.scss" as *;
+
+.fun {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-48);
+  min-height: 90vh;
+
+  h1 {
+    font-size: var(--font-size-48);
+    font-family: var(--font-poppins);
+    font-weight: var(--font-weight-bold);
+
+    > span {
+      font-weight: var(--font-weight-bold);
+    }
+  }
+
+  div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-64);
+    min-height: 70vh;
+    justify-content: center;
+
+    a {
+      font-size: var(--font-size-36);
+      font-family: var(--font-space);
+      text-transform: uppercase;
+      border-bottom: 1px solid white;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      span {
+        transition: transform 0.2s ease-in;
+      }
+
+      &:hover span,
+      &:hover::before,
+      &:hover::after {
+        color: var(--white);
+        transform: translateY(calc(-1 * var(--spacing-16)));
+      }
+
+      &:nth-child(odd)::after,
+      &:nth-child(even)::before {
+        content: "* ";
+        color: var(--white);
+        font-size: var(--font-size-48);
+        transition: transform 0.2s ease-in;
+      }
+    }
+  }
+}
