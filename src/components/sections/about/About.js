@@ -15,8 +15,7 @@ const AboutInfo = () => {
         <p>
           On my own time, I love watching movies, reading books, walking around
           the city, pottery and crocheting sometimes, cooking and dining out,
-          skating (on ice and board), playing chill games, and flying to new
-          places.
+          skating, painting, playing chill games, and flying to new places.
         </p>
       </div>
     </section>

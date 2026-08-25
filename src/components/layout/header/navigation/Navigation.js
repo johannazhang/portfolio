@@ -8,6 +8,7 @@ const Navigation = () => {
   const navigationItems = [
     { label: "Home", link: "/" },
     { label: "Portfolio", link: "/portfolio" },
+    { label: "Work", link: "/work" },
     { label: "Fun", link: "/fun" },
     { label: "About", link: "/about" },
   ];

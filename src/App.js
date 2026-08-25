@@ -14,6 +14,7 @@ import { useEffect } from "react";
 import AfterHours from "./pages/AfterHours";
 import Post from "./components/sections/fun/Post";
 import { DarkModeContext } from "./context/DarkModeContext";
+import Work from "./pages/Work";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function AppContent() {
               <Route path="design" element={<Portfolio />} />
               <Route path=":slug" element={<Project />} />
             </Route>
+            <Route path="/work" element={<Work />} />
             <Route path="/about" element={<About />} />
             <Route path="/fun" element={<AfterHours />}>
               <Route path=":slug" element={<Post />} />
