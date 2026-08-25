@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.a195a254.css",
-    "main.js": "/static/js/main.b77649d2.js",
+    "main.css": "/static/css/main.c8cf9a74.css",
+    "main.js": "/static/js/main.9e449a50.js",
     "static/media/me.png": "/static/media/me.ec09dd65cf2007c2ef78.png",
+    "static/media/iir.png": "/static/media/iir.6eb9365ab27d313281fd.png",
     "static/media/metromate_final.png": "/static/media/metromate_final.e5cc951f25738a12e29d.png",
     "static/media/giftify_experience.png": "/static/media/giftify_experience.296c8a50d0f7a31439fe.png",
     "static/media/giftify_final.png": "/static/media/giftify_final.1995f667fb5304e11bae.png",
@@ -10,6 +11,7 @@
     "static/media/paramedics_branding.png": "/static/media/paramedics_branding.8766d20e4f031b4a21e4.png",
     "static/media/giftify_hifi.png": "/static/media/giftify_hifi.b5ca53018b1b35a1cb8a.png",
     "static/media/metromate.png": "/static/media/metromate.82558f7d97371192ca9c.png",
+    "static/media/report_explanations.png": "/static/media/report_explanations.38c1209908a3ea4b88bd.png",
     "static/media/metromate_sketches.png": "/static/media/metromate_sketches.a0569df20b3cdc4fa423.png",
     "static/media/metromate_station.png": "/static/media/metromate_station.b94d3e251af113149668.png",
     "static/media/metromate_route.png": "/static/media/metromate_route.e27cf3de506e39519749.png",
@@ -38,11 +40,11 @@
     "static/media/github.png": "/static/media/github.f11021803f68852df283.png",
     "static/media/sv.otf": "/static/media/sv.489099fabfdc5fbb3113.otf",
     "index.html": "/index.html",
-    "main.a195a254.css.map": "/static/css/main.a195a254.css.map",
-    "main.b77649d2.js.map": "/static/js/main.b77649d2.js.map"
+    "main.c8cf9a74.css.map": "/static/css/main.c8cf9a74.css.map",
+    "main.9e449a50.js.map": "/static/js/main.9e449a50.js.map"
   },
   "entrypoints": [
-    "static/css/main.a195a254.css",
-    "static/js/main.b77649d2.js"
+    "static/css/main.c8cf9a74.css",
+    "static/js/main.9e449a50.js"
   ]
 }
